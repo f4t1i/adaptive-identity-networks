@@ -12,9 +12,11 @@ This repository contains theoretical foundations and practical implementations f
 - **Meta-Learning**: "Learning to be Nobody to be Anybody"
 - **Multi-Agent Orchestration**: Management of agent pools with different identity states
 - **Continual Learning**: Learning new tasks without catastrophic forgetting
+- **Cognitive Prompting Framework**: Advanced prompting with built-in reflection loops
 
 ## Documentation
 
+- [`cognitive-framework-conversation.md`](./cognitive-framework-conversation.md) - **NEW:** Comprehensive conversation about cognitive architecture, identity oscillation, and adaptive AI systems
 - [`identity-oscillation-theory.md`](./identity-oscillation-theory.md) - Theoretical foundations and mathematical formalization
 - [`adaptive-identity-implementation.md`](./adaptive-identity-implementation.md) - Practical implementation architectures
 - [`multi-agent-orchestration.md`](./multi-agent-orchestration.md) - Multi-agent orchestration system for DeepALL
@@ -29,6 +31,13 @@ Manages a pool of agents and assigns tasks based on identity similarity.
 
 ### 3. Continual Identity Learner
 Enables learning new tasks without losing previously learned capabilities.
+
+### 4. Cognitive Prompting Framework
+Advanced prompting system with:
+- **Cognitive Pipeline (Θ)**: plan → reflect → validate → execute
+- **Autonomy Budget (A)**: Granular control over action space [0.0-1.0]
+- **Tone Vector (T)**: Multi-dimensional communication style
+- **Memory Context (M)**: Relevant past interactions and project state
 
 ## Research Hypotheses
 
