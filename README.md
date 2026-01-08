@@ -1,39 +1,40 @@
 # Adaptive Identity Networks (AIN)
 
-Ein innovatives Framework für adaptive KI-Agenten mit dynamischen Identitätszuständen, basierend auf dem **∅↔S Prinzip** (Niemand ⇄ Jemand).
+An innovative framework for adaptive AI agents with dynamic identity states, based on the **∅↔S principle** (Nobody ⇄ Somebody).
 
-## Überblick
+## Overview
 
-Dieses Repository enthält theoretische Grundlagen und praktische Implementierungen für **Adaptive Identity Networks**, ein Framework zur Entwicklung von KI-Agenten, die ihre Identität dynamisch an verschiedene Aufgaben anpassen können.
+This repository contains theoretical foundations and practical implementations for **Adaptive Identity Networks**, a framework for developing AI agents that can dynamically adapt their identity to different tasks.
 
-### Kernkonzepte
+### Core Concepts
 
-- **Identity Oscillation (∅↔S)**: Der Wechsel zwischen generischen (∅) und spezialisierten (S) Zuständen
+- **Identity Oscillation (∅↔S)**: The transition between generic (∅) and specialized (S) states
 - **Meta-Learning**: "Learning to be Nobody to be Anybody"
-- **Multi-Agent Orchestration**: Verwaltung von Agent-Pools mit verschiedenen Identitätszuständen
-- **Continual Learning**: Lernen neuer Tasks ohne Catastrophic Forgetting
+- **Multi-Agent Orchestration**: Management of agent pools with different identity states
+- **Continual Learning**: Learning new tasks without catastrophic forgetting
 
-## Dokumentation
+## Documentation
 
-- [`identity-oscillation-theory.md`](./identity-oscillation-theory.md) - Theoretische Grundlagen und mathematische Formalisierung
-- [`adaptive-identity-implementation.md`](./adaptive-identity-implementation.md) - Praktische Implementierungsarchitekturen
+- [`identity-oscillation-theory.md`](./identity-oscillation-theory.md) - Theoretical foundations and mathematical formalization
+- [`adaptive-identity-implementation.md`](./adaptive-identity-implementation.md) - Practical implementation architectures
+- [`multi-agent-orchestration.md`](./multi-agent-orchestration.md) - Multi-agent orchestration system for DeepALL
 
-## Hauptkomponenten
+## Main Components
 
 ### 1. Adaptive Identity Agent
-Ein einzelner Agent, der seine Identität basierend auf Task-Kontext und Autonomie-Budget anpasst.
+A single agent that adapts its identity based on task context and autonomy budget.
 
 ### 2. Identity Orchestrator
-Verwaltet einen Pool von Agenten und weist Tasks basierend auf Identitäts-Ähnlichkeit zu.
+Manages a pool of agents and assigns tasks based on identity similarity.
 
 ### 3. Continual Identity Learner
-Ermöglicht das Lernen neuer Tasks ohne Verlust bereits erlernter Fähigkeiten.
+Enables learning new tasks without losing previously learned capabilities.
 
-## Forschungshypothesen
+## Research Hypotheses
 
-1. **Identity Oscillation Frequency**: Optimale Wechselfrequenz zwischen ∅ und S
-2. **Optimal ψ per Task Type**: Aufgabenspezifische Identitätsstärke
-3. **Identity Diversity**: Optimale Verteilung von Identitätszuständen in Agent-Pools
+1. **Identity Oscillation Frequency**: Optimal switching frequency between ∅ and S
+2. **Optimal ψ per Task Type**: Task-specific identity strength
+3. **Identity Diversity**: Optimal distribution of identity states in agent pools
 
 ## Implementation Roadmap
 
@@ -54,7 +55,7 @@ for task in task_stream:
     learner.learn_new_task(task.id, task.data)
 ```
 
-## Anwendungsbereiche
+## Application Areas
 
 - Transfer Learning
 - Few-Shot Learning
@@ -63,10 +64,10 @@ for task in task_stream:
 - Continual Learning
 - Adaptive AI Systems
 
-## Lizenz
+## License
 
-Dieses Projekt ist für Forschungs- und Bildungszwecke gedacht.
+This project is intended for research and educational purposes.
 
-## Kontakt
+## Contact
 
-Für Fragen und Diskussionen zum Framework, bitte ein Issue erstellen.
+For questions and discussions about the framework, please create an issue.
